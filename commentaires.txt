@@ -1,0 +1,30 @@
+Barbas Guillaume 11702242
+Boumekla Ahmed Amazigh 11708401
+
+Bonjour, voici notre mini-projet en Algorithmes des graphes.
+
+Nous avons bien réussi toute la partie sur les parcours(Profondeur,largeur,Prof_ou_largeur) car on a tres vite assimilé le fonctionnement du programme en remarquant que cela reprennait les principes vues en TD avec le conteneur,prefixe,suffixe.
+
+-0 perte mémoire
+
+Ordre_topolique: Nous avons revu le principe d'ordre topologique et comment verifier qu'il y a un cycle. Nous avons ajouter un champs arc_arriere qui permet de verifier si le graphe en possede un et qui est rempli directement dans parcourir et qui permet au programme d'etre plus generique.
+
+-0 perte mémoire
+
+Pour les composantes fortement connexes :
+	c'est la fonction qui nous a donné le plus de mal. On a essayé beacoup de choses car on avait mal suivi l'algorithme. Puis on a repris l'algorithme petit a petit et on a reussi a l'implementer correctement
+
+-0 pertes mémoire
+
+Distance:
+	pour réaliser cette fonction il fallait être sur que la fonction parcourir_depuis marche bien car on a besoin de faire un parcours en largeuer depuis un sommet particulier, puis avec un tableau on stoque les distance 
+-0 perte mémoire
+
+
+diamietre : 
+	utilise la fonction distance pour bien fonctionner, on calcule toutes les distances depuis chaque points puis on choisit le maximum, finnalement on choisit le maximum des maximums, si jamais un sommet n'est pas atteint dans un parcours, il n'y a pas de diametre car le graphe n'est pas connexe.
+ 
+Merci, Cordialement.
+
+
+
